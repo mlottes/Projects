@@ -1,0 +1,79 @@
+<!-- Created by Mark Lottes for N221 on 4/14/2015 -->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        #txtFeedback {
+            color: #900;
+        }
+
+        .error {
+            display: inline;
+            color: #990000;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="txtFeedback"></div>
+    <form action="http://www.google.com" id="myForm">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input id="firstName"/>
+            <div class="error"></div>
+        </div>
+
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input id="lastName"/>
+            <div class="error"></div>
+        </div>
+
+        <div>
+            <label for="address">Address:</label>
+            <input id="address"/>
+            <div class="error"></div>
+        </div>
+
+        <div>
+            <label for="city">City:</label>
+            <input id="city"/>
+            <div class="error"></div>
+        </div>
+
+        <div>
+            <label for="state">State:</label>
+            <input id="state"/>
+            <div class="error"></div>
+        </div>
+
+        <div>
+            <label for="zip">Zip:</label>
+            <input id="zip"/>
+            <div class="error"></div>
+        </div>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input id="phone"/>
+            <div class="error"></div>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email"/>
+            <div class="error"></div>
+        </div>
+
+        <div>
+            <input type="submit" value="submit" id="btnSubmit"/>
+        </div>
+
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
