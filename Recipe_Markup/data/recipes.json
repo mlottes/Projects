@@ -1,0 +1,49 @@
+
+{
+  "recipes": [
+    {
+      "name": "Mapo_Dofu",
+      "serving": "4",
+      "prep_time": "1 hour",
+      "ingredients": [
+        {
+          "name": "tofu",
+          "amount": "loads"
+        }
+      ]
+    },
+    {
+      "name": "California_Sushi",
+      "serving": "1",
+      "prep_time": "30 minutes",
+      "ingredients": [
+        {
+          "name": "rice",
+          "amount": "lots"
+        }
+      ]
+    },
+    {
+      "name": "Braised_Beef",
+      "serving": "4",
+      "prep_time": "1.5 hour",
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": "5 pounds"
+        }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "serving": "4",
+      "prep_time": "10 minutes",
+      "ingredients": [
+        {
+          "name": "dough",
+          "amount": "3 pounds"
+        }
+      ]
+    }
+  ]
+}
